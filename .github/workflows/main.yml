@@ -1,0 +1,13 @@
+- name: Publish Unit Test Results
+  # You may pin to the exact commit or the version.
+  # uses: EnricoMi/publish-unit-test-result-action@7c382eb4159eae3a5d6c9bfba02b6cf27768dcfc
+  uses: EnricoMi/publish-unit-test-result-action@v1.1
+  with:
+    # GitHub API Access Token
+    github_token: 
+    # Name of the created check run
+    check_name: # optional, default is Unit Test Results
+    # File pattern of test result files
+    files: 
+    # Action logging level
+    log_level: # optional, default is INFO

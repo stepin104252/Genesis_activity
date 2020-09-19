@@ -50,10 +50,10 @@ void test_create_acc(void) {
 }
 
 void test_transactions(void) {
-  CU_ASSERT(200 == transactions(0, 200));
+  CU_ASSERT(200 == transactions(200));
   
   /* Dummy fail*/
-  CU_ASSERT(1000 == transactions(1000, 900));
+  CU_ASSERT(1000 == transactions(1000));
 }
 
 void test_acc_list(void) {

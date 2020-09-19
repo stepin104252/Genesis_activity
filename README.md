@@ -28,6 +28,11 @@ withdrawal of amount
 ![](images/flowchartbnkmngmt.jpg)
  
 <h4>TEST PLAN<h4>
+ 
+Scope: Testing the product with all possible inputs and observing the outcome for each and every components present in the program.
+Test plan as follows:
+<br>
+1. Testing the 
   
 
 <h4>TEST CASES<h4>

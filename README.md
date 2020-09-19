@@ -5,6 +5,8 @@
 <h4>REQUIREMENTS<h4>
 <h4>DESIGN<h4>
   
+![](images/flowchartbnkmngmt.jpg)
+ 
 <h4>TEST PLAN<h4>
 <h4>TEST CASES<h4>
   

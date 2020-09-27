@@ -1,9 +1,0 @@
-language: c
-sudo: false # only for faster builds
-script:
-  - clang -coverage -O0 bank.c -o bank
-  - ./bank
-  - gcov bank.c
-
-after_success:
-  - bash <(curl -s https://codecov.io/bash)
